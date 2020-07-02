@@ -3,13 +3,13 @@ name: Deutsch
 title:
   archive: Archiv
   category: Kategorie
-  tag: Schlagwort
+  tag: Tag
   schedule: Zeitplan
 menu:
   home: Startseite
   archives: Archiv
   categories: Kategorien
-  tags: Schlagwörter
+  tags: Tags
   about: Über
   search: Suche
   schedule: Zeitplan
@@ -17,7 +17,7 @@ menu:
   commonweal: Commonweal 404
 sidebar:
   overview: Übersicht
-  toc: Inhaltsverzeichnis
+  toc: Inhalt
 post:
   posted: Veröffentlicht am
   edited: Bearbeitet am
@@ -41,20 +41,20 @@ footer:
   total_visitors: Alle Besucher
 counter:
   tag_cloud:
-    zero: Keine Schlagworte
-    one: Insgesamt ein Schlagwort
-    other: "Insgesamt %d Schlagwörter"
+    zero: Keine Tags
+    one: Insgesamt ein Tag
+    other: "Insgesamt %d Tags"
   categories:
     zero: Keine Kategorien
     one: Insgesamt eine Kategorie
     other: "Insgesamt %d Kategorien"
   archive_posts:
-    zero: Keine Artikel vorhanden.
-    one: Ein Artikel.
-    other: "Insgesamt %d Artikel."
+    zero: Keine Posts vorhanden.
+    one: Ein Post.
+    other: "Insgesamt %d Posts."
 state:
-  posts: Artikel
-  tags: schlagwörter
+  posts: Posts
+  tags: Tags
   categories: Kategorien
 search:
   placeholder: Suche...
@@ -77,14 +77,14 @@ reward:
   paypal: PayPal
   bitcoin: Bitcoin
 follow_me:
-  welcome: Willkommen zu meinen anderen Veröffentlichen Kanälen
+  welcome: Willkommen zu meinen anderen veröffentlichten Kanälen
 accessibility:
-  nav_toggle: Navigationsleiste an/ausschalten
+  nav_toggle: Navigationsleiste an-/ausschalten
   prev_page: Vorherige Seite
   next_page: Nächste Seite
 symbols_count_time:
-  count: Symbole im Artikel gezählt
+  count: Symbole im Post gezählt
   count_total: Insgesamt gezählte Symbole
   time: Lesezeit
   time_total: Insgesamte Lesezeit
-  time_minutes: minuten.
+  time_minutes: Minuten.

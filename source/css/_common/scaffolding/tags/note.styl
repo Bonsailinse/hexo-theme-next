@@ -57,9 +57,7 @@
       if ($note-style == 'flat') {
         background: lookup('$note-bg-' + $type);
         if (hexo-config('darkmode')) {
-          @media (prefers-color-scheme: dark) {
             background: mix(lookup('$note-bg-' + $type), $body-bg-color-dark, 10%);
-          }
         }
       }
 

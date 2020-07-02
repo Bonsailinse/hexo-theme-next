@@ -19,6 +19,19 @@
     margin: -20px auto 15px;
     text-align: center;
   }
+
+  a[rel~="footnote"], a[rev~="footnote"] {
+    border-bottom: none;
+  }
+
+  .hint--error.hint--top::before {
+    border-top-color: var(--card-bg-color);
+  }
+
+  .hint--error::after {
+    background-color: var(--card-bg-color);
+    text-shadow: 0 -1px 0 var(--card-bg-color);
+  }
 }
 
 .post-sticky-flag {

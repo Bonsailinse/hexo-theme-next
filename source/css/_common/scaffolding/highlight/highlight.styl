@@ -5,10 +5,8 @@ if (hexo-config('prism.enable')) {
 }
 
 if (hexo-config('darkmode')) {
-  @media (prefers-color-scheme: dark) {
     @import hexo-config('highlight.dark.file') if (hexo-config('highlight.enable'));
     @import hexo-config('prism.dark') if (hexo-config('prism.enable'));
-  }
 }
 
 @import 'copy-code' if (hexo-config('codeblock.copy_button.enable'));
