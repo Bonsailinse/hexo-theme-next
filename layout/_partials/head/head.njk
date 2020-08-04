@@ -41,41 +41,6 @@
 
 <link rel="stylesheet" href="{{ url_for(theme.css) }}/main.css">
 
-<script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script src="/lib/rater.min.js"></script>
-<script>
-        $(document).ready(function(){
-            var rating_options = {
-              initial_value: 0,
-              max_value: 1,
-              step_size: 1,
-              selected_symbol_type: 'hearts',
-              change_once: true,
-            }
-
-            $(".rating").rate(rating_options);
-        });
-    </script>
-    <style>
-
-            .rating
-            {
-                font-size: 35px;
-            }
-            .rating .rate-base-layer
-            {
-                color: #aaa;
-            }
-            .rating .rate-hover-layer
-            {
-                color: pink;
-            }
-            .rating .rate-select-layer
-            {
-                color: red;
-            }
-        </style>
-
 {{ next_font() }}
 
 {%- set font_awesome_uri = theme.vendors.fontawesome or url_for('lib/font-awesome/css/all.min.css') %}
