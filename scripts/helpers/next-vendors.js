@@ -5,9 +5,7 @@
 hexo.extend.helper.register('js_vendors', function() {
   let { config, theme } = this;
   let vendors = {
-    anime: 'lib/anime.min.js',
-    jquery: '//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js',
-    rater: 'lib/rater.min.js'
+    anime: 'lib/anime.min.js'
   };
   if (config.prismjs.enable && !config.prismjs.preprocess) {
     vendors.prism = '//cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js';
@@ -20,7 +18,7 @@ hexo.extend.helper.register('js_vendors', function() {
     vendors.pjax = '//cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js';
   }
   if (theme.fancybox) {
-    //vendors.jquery = '//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js';
+    vendors.jquery = '//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js';
     vendors.fancybox = '//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js';
   }
   if (theme.mediumzoom) {

@@ -206,7 +206,7 @@ links:
 toc:
   enable: true
   # Automatically add list number to toc.
-  number: true
+  number: false
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: true
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
@@ -782,8 +782,8 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
-  icons: false
+  style: flat
+  icons: true
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
@@ -791,7 +791,7 @@ note:
 # Tabs tag
 tabs:
   transition:
-    tabs: false
+    tabs: true
     labels: true
 
 # PDF tag
@@ -805,9 +805,9 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
-  theme: forest
+  theme: dark
 
 
 # ---------------------------------------------------------------
